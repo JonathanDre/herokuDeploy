@@ -1,0 +1,30 @@
+{
+  "firstName": "server",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.22.2",
+    "firebase-admin": "^11.9.0",
+    "jsonwebtoken": "^9.0.0",
+    "raw-body": "^2.5.2",
+    "socket.io": "^4.7.0",
+    "socketio-jwt": "^4.6.2",
+    "stripe": "^12.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
